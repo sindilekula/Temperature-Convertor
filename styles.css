@@ -46,4 +46,9 @@ button.cConvertor {
     .container{
         width: fit-content;
     }
+
+    .conversion{
+        display: flex;
+        flex-direction: row;
+    }
 }
