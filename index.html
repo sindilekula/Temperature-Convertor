@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Temp-Convertor</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Temperature Converter</h1>
+      
+      <div class="convertion">
+          <div class="celsius">
+              <input type="text" name="celsius" id="fToC" placeholder="Celsius"/>
+              <button type="button" onclick="convertToC()" class="cConvertor">Celsius Convertor</button>
+              <div id="result1"></div>
+          </div>
+          <div class="farenheit">
+              <input type="text" name="Farenheit" id="cToF" placeholder="Farenheit"/>
+              <button type="button" onclick="convertToF()" class="fConvertor">Farenheit Convertor</button>
+              <div id="result2"></div>
+          </div>
+      </div>
+    </div> 
+<script src="./scripts.js"></script>
+</body>
+</html>
