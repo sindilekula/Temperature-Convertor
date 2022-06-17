@@ -9,7 +9,7 @@ function convertToC(){
 
 function convertToF(){
     let Celsius = document.querySelector('#cToF').value;
-    let sum2 = (Celsius * (5*9)) + 32;
+    let sum2 = Celsius * (9/5) + 32;
     document.querySelector("#result2").innerHTML = `Your answer is :
     ${sum2.toFixed(2)} F
     `;
